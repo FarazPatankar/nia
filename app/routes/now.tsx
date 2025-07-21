@@ -75,13 +75,13 @@ const Now = () => {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-2">
-        <H3>Goals</H3>
-        <P>Lose weight. Sleep better. Paint more. Cook more.</P>
+        <H3>goals</H3>
+        <P>lose weight. sleep better. paint more. cook more.</P>
       </div>
 
       <div className="flex flex-col gap-2">
         <div className="flex flex-col items-start gap-2">
-          <NowItem emoji="🏠" text="Bangalore" />
+          <NowItem emoji="🏠" text="bangalore" />
           {lastSleep != null && (
             <NowItem
               emoji="😴"
