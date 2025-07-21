@@ -1,93 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer base {
   :root {
-    --background: 330 100% 95%; /* cute light pink */
-    --foreground: 220 100% 50%; /* bright blue */
-
-    --card: 330 100% 95%;
-    --card-foreground: 220 100% 50%;
-
-    --popover: 330 100% 95%;
-    --popover-foreground: 220 100% 50%;
-
-    --primary: 220 100% 50%;
-    --primary-foreground: 330 100% 95%;
-
-    --secondary: 330 100% 90%;
-    --secondary-foreground: 220 100% 50%;
-
-    --muted: 330 100% 90%;
-    --muted-foreground: 220 80% 40%;
-
-    --accent: 330 100% 90%;
-    --accent-foreground: 220 100% 50%;
-
+    --background: 330 56% 88%; /* #FEC2D6 pink */
+    --foreground: 210 100% 25%; /* deep complementing blue */
+    --card: 330 56% 88%;
+    --card-foreground: 210 100% 25%;
+    --popover: 330 56% 88%;
+    --popover-foreground: 210 100% 25%;
+    --primary: 210 100% 25%;
+    --primary-foreground: 330 56% 88%;
+    --secondary: 330 56% 85%;
+    --secondary-foreground: 210 100% 25%;
+    --muted: 330 56% 85%;
+    --muted-foreground: 210 80% 35%;
+    --accent: 330 56% 85%;
+    --accent-foreground: 210 100% 25%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 330 100% 95%;
-
-    --border: 330 100% 90%;
-    --input: 330 100% 90%;
-    --ring: 220 100% 50%;
-
+    --destructive-foreground: 330 56% 88%;
+    --border: 330 56% 85%;
+    --input: 330 56% 85%;
+    --ring: 210 100% 25%;
     --radius: 0.5rem;
-
     /* Novel */
-    --novel-highlight-default: #fff0f5;
+    --novel-highlight-default: #fec2d6;
     --novel-highlight-purple: #f6f3f8;
     --novel-highlight-red: #fdebeb;
     --novel-highlight-yellow: #fbf4a2;
     --novel-highlight-blue: #c1ecf9;
     --novel-highlight-green: #acf79f;
     --novel-highlight-orange: #faebdd;
-    --novel-highlight-pink: #faf1f5;
+    --novel-highlight-pink: #fec2d6;
     --novel-highlight-gray: #f1f1ef;
   }
-
   .dark {
-    --background: 330 40% 15%; /* darker pink */
-    --foreground: 210 100% 80%; /* lighter blue */
-
-    --card: 330 40% 15%;
-    --card-foreground: 210 100% 80%;
-
-    --popover: 330 40% 15%;
-    --popover-foreground: 210 100% 80%;
-
-    --primary: 210 100% 80%;
-    --primary-foreground: 330 40% 15%;
-
-    --secondary: 330 40% 20%;
-    --secondary-foreground: 210 100% 80%;
-
-    --muted: 330 40% 20%;
-    --muted-foreground: 210 70% 70%;
-
-    --accent: 330 40% 20%;
-    --accent-foreground: 210 100% 80%;
-
+    --background: 330 40% 20%; /* darker version of #FEC2D6 */
+    --foreground: 210 100% 85%; /* lighter complementing blue */
+    --card: 330 40% 20%;
+    --card-foreground: 210 100% 85%;
+    --popover: 330 40% 20%;
+    --popover-foreground: 210 100% 85%;
+    --primary: 210 100% 85%;
+    --primary-foreground: 330 40% 20%;
+    --secondary: 330 40% 25%;
+    --secondary-foreground: 210 100% 85%;
+    --muted: 330 40% 25%;
+    --muted-foreground: 210 70% 75%;
+    --accent: 330 40% 25%;
+    --accent-foreground: 210 100% 85%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 100% 80%;
-
-    --border: 330 40% 20%;
-    --input: 330 40% 20%;
-    --ring: 210 80% 70%;
-
+    --destructive-foreground: 210 100% 85%;
+    --border: 330 40% 25%;
+    --input: 330 40% 25%;
+    --ring: 210 80% 75%;
     /* Novel */
-    --novel-highlight-default: #4a003f;
+    --novel-highlight-default: #6b0051;
     --novel-highlight-purple: #3f2c4b;
     --novel-highlight-red: #5c1a1a;
     --novel-highlight-yellow: #5c4b1a;
     --novel-highlight-blue: #1a3d5c;
     --novel-highlight-green: #1a5c20;
     --novel-highlight-orange: #5c3a1a;
-    --novel-highlight-pink: #5c1a3a;
+    --novel-highlight-pink: #7a1a5a;
     --novel-highlight-gray: #3a3a3a;
   }
 }
-
 @layer base {
   * {
     @apply border-border;
@@ -96,26 +74,22 @@
     @apply bg-background text-foreground;
   }
 }
-
 pre {
   background: #0d0d0d;
   border-radius: 0.5rem;
   color: #fff;
   font-family: "JetBrainsMono", monospace;
   padding: 0.75rem 1rem;
-
   code {
     background: none;
     color: inherit;
     font-size: 0.8rem;
     padding: 0;
   }
-
   .hljs-comment,
   .hljs-quote {
     color: #616161;
   }
-
   .hljs-variable,
   .hljs-template-variable,
   .hljs-attribute,
@@ -128,7 +102,6 @@ pre {
   .hljs-selector-class {
     color: #f98181;
   }
-
   .hljs-number,
   .hljs-meta,
   .hljs-built_in,
@@ -138,27 +111,22 @@ pre {
   .hljs-params {
     color: #fbbc88;
   }
-
   .hljs-string,
   .hljs-symbol,
   .hljs-bullet {
     color: #b9f18d;
   }
-
   .hljs-title,
   .hljs-section {
     color: #faf594;
   }
-
   .hljs-keyword,
   .hljs-selector-tag {
     color: #70cff8;
   }
-
   .hljs-emphasis {
     font-style: italic;
   }
-
   .hljs-strong {
     font-weight: 700;
   }
