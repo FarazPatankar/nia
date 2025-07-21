@@ -4,38 +4,38 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 330 100% 95%; /* cute light pink */
+    --foreground: 220 100% 50%; /* bright blue */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 330 100% 95%;
+    --card-foreground: 220 100% 50%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 330 100% 95%;
+    --popover-foreground: 220 100% 50%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 220 100% 50%;
+    --primary-foreground: 330 100% 95%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 330 100% 90%;
+    --secondary-foreground: 220 100% 50%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 330 100% 90%;
+    --muted-foreground: 220 80% 40%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 330 100% 90%;
+    --accent-foreground: 220 100% 50%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 330 100% 95%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 330 100% 90%;
+    --input: 330 100% 90%;
+    --ring: 220 100% 50%;
 
     --radius: 0.5rem;
 
     /* Novel */
-    --novel-highlight-default: #ffffff;
+    --novel-highlight-default: #fff0f5;
     --novel-highlight-purple: #f6f3f8;
     --novel-highlight-red: #fdebeb;
     --novel-highlight-yellow: #fbf4a2;
@@ -47,36 +47,36 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 330 40% 15%; /* darker pink */
+    --foreground: 210 100% 80%; /* lighter blue */
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 330 40% 15%;
+    --card-foreground: 210 100% 80%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 330 40% 15%;
+    --popover-foreground: 210 100% 80%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 210 100% 80%;
+    --primary-foreground: 330 40% 15%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 330 40% 20%;
+    --secondary-foreground: 210 100% 80%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 330 40% 20%;
+    --muted-foreground: 210 70% 70%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 330 40% 20%;
+    --accent-foreground: 210 100% 80%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 210 100% 80%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 330 40% 20%;
+    --input: 330 40% 20%;
+    --ring: 210 80% 70%;
 
     /* Novel */
-    --novel-highlight-default: #000000;
+    --novel-highlight-default: #4a003f;
     --novel-highlight-purple: #3f2c4b;
     --novel-highlight-red: #5c1a1a;
     --novel-highlight-yellow: #5c4b1a;
