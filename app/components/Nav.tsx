@@ -23,7 +23,7 @@ export const Nav = ({ isAuthenticated, categories }: Props) => {
         <NavigationMenuList className="space-x-4">
           <NavigationMenuItem>
             <NavigationMenuLink active={pathname === "/"} asChild>
-              <Link to="/">Home</Link>
+              <Link to="/">home</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
           {categories.map(category => (
@@ -38,7 +38,7 @@ export const Nav = ({ isAuthenticated, categories }: Props) => {
           ))}
           <NavigationMenuItem>
             <NavigationMenuLink active={pathname === "/now"} asChild>
-              <Link to="/now">Now</Link>
+              <Link to="/now">now</Link>
             </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
