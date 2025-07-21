@@ -202,11 +202,11 @@ export const meta: MetaFunction<typeof loader> = ({ data }) => {
   const imageElements: ReturnType<MetaFunction> = [
     {
       name: "og:image",
-      content: `https://farazpatankar.com/p/${data.entry.slug}.png`,
+      content: `https://nandakinii.com/p/${data.entry.slug}.png`,
     },
     {
       property: "twitter:image",
-      content: `https://farazpatankar.com/p/${data.entry.slug}.png`,
+      content: `https://nandakinii.com/p/${data.entry.slug}.png`,
     },
     {
       name: "twitter:card",
