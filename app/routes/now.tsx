@@ -94,9 +94,6 @@ const Now = () => {
       </div>
 
       <div className="w-full h-[1px] bg-border mt-4 mb-2" />
-      <Small className="text-muted-foreground">
-        Last updated: 2025/04/26 1:15 PM
-      </Small>
     </div>
   );
 };
