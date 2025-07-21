@@ -7,7 +7,7 @@ import { Separator } from "~/components/ui/separator";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Nia" },
+    { title: "nandakinii" },
     { name: "description", content: "I paint stuff!" },
   ];
 };
@@ -16,8 +16,8 @@ const Home = () => {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-2">
-        <H1>Nia</H1>
-        <P>I paint stuff.</P>
+        <H1>nandakinii</H1>
+        <P>i paint stuff.</P>
       </div>
 
       <Separator />
