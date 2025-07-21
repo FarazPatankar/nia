@@ -157,7 +157,7 @@ export const loader = async ({ request }: LoaderFunctionArgs) => {
       >
         <span>{category}</span>
         <span tw="mx-2 opacity-25">|</span>
-        <span>farazpatankar.com</span>
+        <span>nandakinii.com</span>
       </div>
     </div>
   );
